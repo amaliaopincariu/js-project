@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Coding Challenge</title>
+    <link rel = "stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container-1"> 
+        <h2> Caracters Modify</h2>
+    <textarea name = "text" id="userInput" cols="30" rows="10" class="textarea"></textarea>
+    </div>
+    <div class="container-btn">
+        <button class="uppercase">Uppercase</button>
+        <button class="lowercase">Lowercase</button>
+        <button class="reverseString">Reverse</button>
+        <button onclick="convertToTitleCase()" class="titlecase">Titlecase</button>
+        <div id="output"></div>
+    </div>
+    <div class="word-counter-container">
+        <h2> Word Counter</h2>
+       
+        <textarea class="words" id="input"></textarea>
+        <button class="count-btn" onclick="countWordsAndVowels()">Count Words and Vowels</button>
+        <p>Number of words: <span id="wordCount"></span></p>
+        <p>Number of vowels: <span id="vowelCount"></span></p>
+        
+    <script src="script.js"></script>
+
+
+</body>
+</html> 

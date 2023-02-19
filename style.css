@@ -1,0 +1,147 @@
+.container-1 {
+    padding: 16px;
+    font-family:"Roboto", sans-serif;
+    text-align: center;
+}
+.container-1 textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif ;
+    font-size: 16px;
+    resize: none;
+    max-width: 800px;
+    line-height: 2;
+    margin: 0 auto;
+}
+.container-1 h2 {
+    font-size: 42px;
+}
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .uppercase  {
+    padding: 15px 32px;
+    margin: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #14213d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+.lowercase  {
+    padding: 15px 32px;
+    margin: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #14213d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+.reverseString {
+    padding: 15px 32px;
+    margin: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #14213d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+.titlecase {
+    padding: 15px 32px;
+    margin: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #14213d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+
+.word-counter-container {
+    padding: 16px;
+     font-family:"Roboto", sans-serif;
+     text-align: center;
+}
+.word-counter-container h2 {
+    font-size: 42px;
+}
+.word-counter-container textarea{
+    display: block;
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif ;
+    font-size: 16px;
+    resize: none;
+    max-width: 800px;
+    line-height: 2;
+    margin: 0 auto;
+}
+.word-counter-container .count-btn {
+    padding: 16px 48px;
+    margin: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #14213d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+.word-counter-container .count-vowel-btn {
+    padding: 16px 48px;
+    margin: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #14213d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms ease;
+}
+.word-counter-container .count-btn:hover {
+    background: #001219;
+}
+.word-counter-container .word-count {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.word-counter-container .vowel-count {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.word-counter-container .word-count span {
+    font-size: 56px;
+    font-weight: bold;
+}
+.word-counter-container .vowel-count span {
+    font-size: 56px;
+    font-weight: bold;
+}
