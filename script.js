@@ -107,28 +107,34 @@ function toTitleCase(str) {
 }
 
 // js code for palindrome
+
 // program to check if the string is palindrome or not
 
-function checkPalindrome(string) {
+function checkPalindrome() {
+    
+const elemnent = document.getElementById("input");
+const rezultat = document.getElementById("checkPalindrome");
+const string =  elemnent.value;
 
     // find the length of a string
     const len = string.length;
+    
 
     // loop through half of the string
     for (let i = 0; i < len / 2; i++) {
 
         // check if first and last string are same
         if (string[i] !== string[len - 1 - i]) {
-            return 'It is not a palindrome';
+            rezultat.textContent =  'It is not a palindrome';
+            return;
         }
     }
-    return 'It is a palindrome';
+     rezultat.textContent = 'It is a palindrome';
+
 }
 
-// take input
-const string = prompt('Enter a string: ');
+function ProcessText() {
+    checkPalindrome(); 
+    countWordsAndVowels();
 
-// call the function
-const value = checkPalindrome(string);
-
-console.log(value);
+}

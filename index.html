@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container-1"> 
-        <h2> Caracters Modify</h2>
+        <h2>Modify Character</h2>
     <textarea name = "text" id="userInput" cols="30" rows="10" class="textarea"></textarea>
     </div>
     <div class="container-btn">
@@ -23,9 +23,10 @@
         <h2> Word Counter</h2>
        
         <textarea class="words" id="input"></textarea>
-        <button class="count-btn" onclick="countWordsAndVowels()">Count Words and Vowels</button>
+        <button class="count-btn" onclick="ProcessText()">Analyze Text</button>
         <p>Number of words: <span id="wordCount"></span></p>
         <p>Number of vowels: <span id="vowelCount"></span></p>
+        <p> Palindrome:  <span id="checkPalindrome"></span></p>
         
     <script src="script.js"></script>
 
